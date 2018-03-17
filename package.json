@@ -1,0 +1,27 @@
+{
+  "name": "hyperquant-contracts",
+  "version": "1.0.0",
+  "description": "HyperQuant solidity contracts",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "recompile": "rm -rf ./build/ && truffle compile",
+    "test": "truffle test --gasLimit 4612388"
+  },
+  "keywords": [],
+  "author": "HyperQuant Platform",
+  "license": "ISC",
+  "dependencies": {
+    "zeppelin-solidity": "1.7.0",
+    "truffle": "4.1.3"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "^6.17.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.23.0"
+  }
+}
